@@ -1,5 +1,5 @@
 Bubble Sort
-Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The largest unsorted elements "bubble up" to the end of the array with each pass.
+- Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The largest unsorted elements "bubble up" to the end of the array with each pass.
 
 📦 JavaScript Implementation
 
@@ -41,3 +41,4 @@ let sorted = false;
 - Easy to implement and visualize
 - Inefficient for large datasets
 - Adaptive with early exit optimization
+
