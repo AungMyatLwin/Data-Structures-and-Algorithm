@@ -1,5 +1,6 @@
 🔍 Binary Search
-Binary Search is an efficient algorithm for finding a target value within a sorted array. It works by repeatedly dividing the search interval in half. If the target value is less than the middle element, the search continues in the left half; otherwise, it continues in the right half.
+
+- Binary Search is an efficient algorithm for finding a target value within a sorted array. It works by repeatedly dividing the search interval in half. If the target value is less than the middle element, the search continues in the left half; otherwise, it continues in the right half.
 
 📦 JavaScript Implementation
 
@@ -43,3 +44,4 @@ let upper = arr.length - 1;
 - Extremely efficient for large datasets
 - Commonly used in search engines, databases, and interview questions
 - Forms the basis for advanced algorithms like binary search trees and exponential search
+
