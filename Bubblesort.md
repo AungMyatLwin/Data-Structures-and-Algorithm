@@ -2,6 +2,8 @@ Bubble Sort
 Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The largest unsorted elements "bubble up" to the end of the array with each pass.
 
 📦 JavaScript Implementation
+
+```
 function bubbleSort(arr) {
 let unsorted_until_index = arr.length - 1;
 let sorted = false;
@@ -20,12 +22,13 @@ let sorted = false;
     return arr;
 
 }
+```
 
 ⏱️ Time Complexity
-| | | |
-| | | sorted = true |
-| | | |
-| | | |
+| Case| Complexity | Description |
+| Best Case | O(n)| Already sorted array (early exit with sorted = true)|
+| Average Case | O(n²)| Multiple passes with swaps |
+| Worst Case |O(n²) | Reversed array—maximum number of comparisons and swaps |
 
 🧠 Space Complexity
 

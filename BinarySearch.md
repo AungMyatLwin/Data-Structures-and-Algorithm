@@ -2,6 +2,8 @@
 Binary Search is an efficient algorithm for finding a target value within a sorted array. It works by repeatedly dividing the search interval in half. If the target value is less than the middle element, the search continues in the left half; otherwise, it continues in the right half.
 
 📦 JavaScript Implementation
+
+```
 function binarySearch(arr, target) {
 let lower = 0;
 let upper = arr.length - 1;
@@ -21,12 +23,13 @@ let upper = arr.length - 1;
     return -1; // target not found
 
 }
+```
 
 ⏱️ Time Complexity
-| | | |
-| | | |
-| | | |
-| | | |
+| Case | Complexity | Description |
+| Best Case| O(1)| Target is at the midpoint on first check|
+| Average Case|O(log n) | Each step halves the search space|
+| Worst Case| O(log n)| Target is at one of the ends or not present|
 
 🧠 Space Complexity
 
