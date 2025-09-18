@@ -26,6 +26,7 @@ let sorted = false;
 
 ⏱️ Time Complexity
 | Case| Complexity | Description |
+|-------------| -------------| -------------|
 | Best Case | O(n)| Already sorted array (early exit with sorted = true)|
 | Average Case | O(n²)| Multiple passes with swaps |
 | Worst Case |O(n²) | Reversed array—maximum number of comparisons and swaps |

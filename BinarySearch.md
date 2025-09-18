@@ -27,9 +27,10 @@ let upper = arr.length - 1;
 
 ⏱️ Time Complexity
 | Case | Complexity | Description |
-| Best Case| O(1)| Target is at the midpoint on first check|
-| Average Case|O(log n) | Each step halves the search space|
-| Worst Case| O(log n)| Target is at one of the ends or not present|
+|-------------| -------------| -------------|
+| Best Case| O(1)| Target is at the midpoint on first check |
+| Average Case | O(log n) | Each step halves the search space |
+| Worst Case | O(log n)| Target is at one of the ends or not present |
 
 🧠 Space Complexity
 
